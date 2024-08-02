@@ -11,7 +11,7 @@ mongoose
     console.log(
       "Pinged your deployment. You successfully connected to MongoDB!"
     );
-  })
+  }) 
   .catch((err) => {
     "Database Connection Failed: " + err;
   });
